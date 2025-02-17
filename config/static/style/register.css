@@ -1,0 +1,23 @@
+
+#id_section_register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+#content_register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#conteudo_principal_registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#register_form{
+    margin: 50px;
+}

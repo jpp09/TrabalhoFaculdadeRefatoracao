@@ -1,0 +1,28 @@
+{% include 'partials/_title.html' %}
+<body style="background-color: rgb(0,0,0,0.63)">
+    <!-- =Menu da página-->
+        {% include 'partials/_menu.html' %}
+            <!--Menu para celular-->
+        {% include 'partials/_menu_cel.html' %}
+    </header>
+    <!-- Conteudo principal da página de login-->
+    <section id="conteudo_principal_login">
+        <!--Formulário para realizar login-->
+        <div id='section_login' class="card">
+            <form id="form_login" >
+                <div id="div_section_login">
+                        <div id="content_login">
+                            <label for="input_usuario" class="form-label fw-bold">Usuário:</label>
+                            <input placeholder="Digite o seu usuário..." id="input_usuario" type='text' name="input_usuario" class="form-control"><br><br>
+                            <label for="input_senha" class="form-label fw-bold">Senha:</label><br>
+                            <input id="input_senha" type= "password" name="input_senha" placeholder="Digite sua senha..." required class="form-control"><br><br>
+                            <button type="submit" class="btn btn-dark">Login</button>
+                        </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+</html>
